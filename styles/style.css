@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar {
+    height: 75px;
+    text-align: center;
+    flex:10;
+    font-size: x-large;
+}
+
+.search-button {
+    flex:1;
+    font-size: x-large;
+
+}
+
+.result-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-block {
+    padding: 10px;
+    border-color: black;
+    border-style: dashed;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+}
+
+.weather-block h2 {
+    margin: 0;
+}
+
+.weather-block div {
+    flex:1;
+}
